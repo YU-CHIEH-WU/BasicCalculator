@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>BasicCalculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="container full-size z-depth-1">
+        <div class="row full-size">
+            <div class="card">
+                <div class="col s12">
+                    <div class="col s8 block-title">
+                        <h2 class="left-align">BasicCalculator</h2>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="divider"></div>
+                <div class="section">
+                    <div class="input">
+                        <span>輸入中序式</span>
+                        <input type="text" id="input">
+                    </div>
+                    <div class="input-button">
+                        <a id="enter" class="waves-effect waves-light btn">ENTER</a>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="temp">
+                        <span>輸入的中序式</span>
+                        <p class="input-text"></p>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="output">
+                        <span>轉出後序式</span>
+                        <p class="output-text"></p>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="answer">
+                        <span>答案</span>
+                        <p class="answer-text"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+<script src="main.js"></script>
+
+</html>
